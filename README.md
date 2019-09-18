@@ -1,2 +1,2 @@
 # project
-A simple voice calculator under construction[first.py]
+## [A simple voice calculator under construction](first.py)
