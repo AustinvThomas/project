@@ -16,7 +16,7 @@ def get_operator_fn(op):
         'divided' :operator.__truediv__,
         'Mod' : operator.mod,
         'mod' : operator.mod,
-        '^' : operator.xor,
+        'power' : operator.__pow__,
         }[op]
 def eval_binary_expr(op1, oper, op2):
     op1,op2 = int(op1), int(op2)
